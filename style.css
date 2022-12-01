@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Mountains+of+Christmas:wght@700&display=swap');
+
+body {
+    box-sizing: border-box;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Mountains of Christmas', cursive;
+    color: whitesmoke;
+}
+
+#wallpaper {
+    background-image: url("./img/christmas-wallpaper.jpg");
+    background-size: cover;
+}
+
+#boxContainer {
+    background-image: url("./img/christmas.jpeg");
+    background-size: cover;
+}
+
+.boxes {
+    width: 15vw;
+}
