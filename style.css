@@ -2,7 +2,6 @@
 
 body {
     box-sizing: border-box;
-    font-family: 'Bungee Spice', cursive;
     font-family: 'Mountains of Christmas', cursive;
     color: whitesmoke;
 }
@@ -19,4 +18,16 @@ body {
 
 .boxes {
     width: 15vw;
+}
+
+#speaker {
+    background-image: url("./img/sound-off.png");
+    background-size: cover;
+	height: 30px;
+	width: 30px;
+	position: absolute;
+    top: 15vh;
+    right: 15vw;
+	overflow: hidden;
+	display: inline-block;
 }

@@ -153,6 +153,7 @@ const quotes = [
 ]
 
 const body = document.getElementById('body');
+const speaker = document.getElementById('speaker');
 const boxContainer = document.getElementById('boxContainer');
 const boxes = document.getElementsByClassName('btn');
 const box1 = document.getElementById('box1');
@@ -184,13 +185,21 @@ const xmasMusic = new Audio('./sound/christmasmusic.mp3');
 var playSound;
 var message;
 
-body.onclick = () => {
+body.onload = () => {
     playSound = !playSound;
     if (playSound) {
         xmasMusic.play();
         xmasMusic.loop = true;
-    } else { 
-    xmasMusic.pause();
+    }
+}
+
+speaker.onclick = () => {
+    playSound = !playSound;
+    if (playSound) {
+        xmasMusic.pause();
+    } else {
+        xmasMusic.play();
+        xmasMusic.loop = true; 
     }
 }
 
