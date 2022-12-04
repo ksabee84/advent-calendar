@@ -16,13 +16,9 @@ body {
     background-size: cover;
 }
 
-.boxes {
-    width: 15vw;
-}
-
 #speaker {
-    background-image: url("./img/sound-off.png");
     background-size: cover;
+    background-image: url('./img/sound-off.png');
 	height: 30px;
 	width: 30px;
 	position: absolute;
@@ -30,4 +26,36 @@ body {
     right: 10vw;
 	overflow: hidden;
 	display: inline-block;
+}
+
+#hint {
+    color:#dc3545;
+}
+
+.boxes {
+    width: 15vw;
+}
+
+#popup {
+    width: 50vw;
+    background-color: #dc3545;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 5px solid whitesmoke;
+    display: flex;
+}
+
+#quit {
+    display: block;
+    position: relative;
+    text-align: end;
+}
+
+#boxtext {
+    display: block;
 }
