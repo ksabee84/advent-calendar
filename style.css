@@ -37,7 +37,6 @@ body {
 }
 
 #popup {
-    width: 50vw;
     background-color: #dc3545;
     border-radius: 10px;
     position: absolute;
@@ -51,9 +50,10 @@ body {
 }
 
 #quit {
-    display: block;
-    position: relative;
-    text-align: end;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    text-align: right;
 }
 
 #boxtext {

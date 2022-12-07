@@ -1,8 +1,9 @@
 const quotes = [
     {
         day: 1,
-        quote: `December és a tél első napja.<br>
-        "Ha nem lenne tél, nem élveznénk annyira a tavaszt."<br>(Anne Bradstreet)`,
+        quote: `December és a tél első napja.
+        <br>"Ha nem lenne tél, nem élveznénk annyira a tavaszt."
+        <br>(Anne Bradstreet)`,
     },
     {
         day: 2,
@@ -23,7 +24,9 @@ const quotes = [
     },
     {
         day: 4,
-        quote: `Fehér porcukorral hinti
+        quote: `Havas Éva: Karácsony felé
+        <br>
+        <br>Fehér porcukorral hinti
         <br>a tél most a szemhatárt
         <br>jégcsappal cifrázott tetőn
         <br>tánclépésben lép a szél,
@@ -33,15 +36,15 @@ const quotes = [
         <br>majd kacsintva tovafut,
         <br>a karácsony siklik erre,
         <br>nyugalmat hoz nyűtt szívekre,
-        <br>messze űz minden borút.
-        <br>(Havas Éva: Karácsony felé)`,
-        bgImg: './img/winter_img_day4.jpg',
+        <br>messze űz minden borút.`,
     },
     {
         day: 5,
         quote: `Szálljatok le betlehemi angyalok!
-        <br>Zörgessetek ma este meg minden piciny ablakot,
-        <br>s házikókba, palotákba egy örömet vigyetek:
+        <br>Zörgessetek ma este meg
+        <br>minden piciny ablakot,
+        <br>s házikókba, palotákba
+        <br>egy örömet vigyetek:
         <br>boldog, békés ünnepeket!`,
     },
     {
@@ -65,7 +68,9 @@ const quotes = [
     },
     {
         day: 8,
-        quote: `A fehér hó most is megmarad,
+        quote: `Rummel József: Karácsony
+        <br>
+        <br>A fehér hó most is megmarad,
         <br>Díszes az egész táj.
         <br>Büszke fenyő sír a hó alatt,
         <br>"De nehéz, jaj, de fáj!"
@@ -73,7 +78,7 @@ const quotes = [
         <br>Fénylenek a zöld fán,
         <br>S álmodra angyalok vigyáznak,
         <br>Karácsony éjszakáján.
-        <br>(Rummel József: Karácsony)`,
+        `,
     },
     {
         day: 9,
@@ -94,22 +99,26 @@ const quotes = [
     },
     {
         day: 11,
-        quote: `Kívánd, hogy mindaz, amit ma éjjel gondoltál,
-        <br>Ugyanúgy igaz legyen holnap, s holnapután.
-        <br>Kívánj igazi ünnepet, kívánj igazabb életet.
+        quote: `Kívánd, hogy mindaz,
+        <br>amit ma éjjel gondoltál,
+        <br>Ugyanúgy igaz legyen holnap,
+        <br>s holnapután.
+        <br>Kívánj igazi ünnepet,
+        <br>kívánj igazabb életet.
         <br>Én pedig békés karácsonyt kívánok neked!`,
     },
     {
         day: 12,
-        quote: `Szobában a kis fenyő
+        quote: `Lupsánné Kovács Eta: Karácsony
+        <br>
+        <br>Szobában a kis fenyő
         <br>oly vidámnak látszik,
         <br>ajándékkal telt ágán
         <br>csillagszóró játszik.
         <br>Maradjon a szeretet
         <br>ne csak vendégségbe,
-        <br>költözzön a szívekbe
-        <br>legyen mindig béke.
-        <br>(Lupsánné Kovács Eta: Karácsony)`,
+        <br>költözzön a szívekbe,
+        <br>legyen mindig béke.`,
     },
     {
         day: 13,
@@ -120,45 +129,74 @@ const quotes = [
     },
     {
         day: 14,
-        quote: `Kiskarácsony, nagykarácsony,
-        <br>kisült-e már a kalácsom?
+        quote: `Kis karácsony, nagy karácsony,
+        <br>Kisült-e már a kalácsom?
         <br>Ha kisült már, ide véle,
-        <br>Hadd egyem meg melegébe!`,
+        <br>Hadd egyem meg melegébe!
+        <br>Jaj, de szép a karácsonyfa,
+        <br>Ragyog rajta a sok gyertya.
+        <br>Itt egy szép könyv, ott egy labda.
+        <br>Jaj, de szép a karácsonyfa!
+        <br>Béke szálljon minden házra,
+        <br>Kis családra, nagy családra.
+        <br>Karácsonyfa fenyőága,
+        <br>Hintsél békét a világra!`,
     },
     {
         day: 15,
-        quote: `
-        Éj-mélyből fölzengő
+        quote: `Weöres Sándor: Száncsengő
+        <br>
+        <br>Éj-mélyből fölzengő
         <br>- csing-ling-ling - száncsengő.
         <br>Száncsengő - csing-ling-ling -
         <br>tél öblén halkan ring.
-        <br>(Weöres Sándor: Száncsengő - részlet)`,
+        <br>Földobban két nagy ló
+        <br>- kop-kop-kop - nyolc patkó.
+        <br>Nyolc patkó - kop-kop-kop -
+        <br>csönd-zsákból hangot lop.
+        <br>Szétmálló hangerdő
+        <br>- csing-ling-ling - száncsengő.
+        <br>Száncsengő - csing-ling-ling -
+        <br>tél öblén távol ring`,
     },
     {
         day: 16,
-        quote: `Béke szálljon minden házra,
-        Kis családra, nagy családra!
-        Karácsonyfa fenyőága,
-        Hintsél békét a világra! `,
+        quote: `Itt volt egy angyalka,
+        <br>s azt súgta nékem:
+        <br>gondolj ma azokra,
+        <br>kik szívedbe férnek!
+        <br>Eszembe jutottál te és a családod,
+        <br>Ezúton kívánok boldog karácsonyt!`,
     },
     {
         day: 17,
-        quote: `Eljött a karácsony,
+        quote: `Nagy Hajni: Kis karácsonyi vers
+        <br>
+        <br>Eljött a karácsony,
         <br>Minden gyermek vágya,
         <br>A karácsonyfa díszesen
         <br>Áll a szobába.
         <br>Mesekönyv és babaház
         <br>Vár a gazdájára,
         <br>Az arcocskák virulnak
-        <br>Ajándékot látva.
-        <br>(Nagy Hajni: Kis karácsonyi vers)`,
+        <br>Ajándékot látva.`,
     },
     {
         day: 18,
-        quote: `Itt volt egy angyalka,s azt súgta nékem:
-        <br>gondolj ma azokra, kik szívedbe férnek!
-        <br>Eszembe jutottál te és a családod,
-        <br>Ezúton kívánok boldog karácsonyt!`, 
+        quote: `Szilágyi Domokos: Karácsony
+        <br>
+        <br>A puha hóban, csillagokban,
+        <br>az ünnepi foszlós kalácson
+        <br>láthatatlanul ott a jel,
+        <br>hogy itt van újra a karácsony.
+        <br>Mint szomjazónak a pohár víz,
+        <br>úgy kell mindig e kis melegség,
+        <br>hisz arra született az ember,
+        <br>hogy szeressen és szeressék.
+        <br>S hogy ne a hóban, csillagokban,
+        <br>ne ünnepi foszlós kalácson,
+        <br>ne díszített fákon, hanem
+        <br>a szívekben legyen karácsony.`, 
     },
     {
         day: 19,
@@ -173,25 +211,27 @@ const quotes = [
         quote: `Csillagfényes álmaid váljanak valóra,
         <br>Legyen ünnep lelkednek minden nap és óra.
         <br>Kerülje a bánat örökre el házad,
-        <br>Érjen annyi boldogság, mit ember csak kívánhat!
+        <br>Érjen annyi boldogság,
+        <br>mit ember csak kívánhat!
         <br>Boldog karácsonyi ünnepeket!`,
     },
     {
         day: 21,
-        quote: `Harang csendül,
+        quote: `Ady Endre: Karácsonyi rege
+        <br>(részlet)
+        <br>Harang csendül,
         <br>Ének zendül,
         <br>Messze zsong a hálaének,
         <br>Az én kedves kis falumban
         <br>Karácsonykor
         <br>Magába száll minden lélek.
-        <br>..
+        <br>. . .
         <br>Mintha itt lenn
         <br>A nagy Isten
         <br>Szent kegyelme súgna, szállna,
         <br>Az én kedves, kis falumban
         <br>Minden szívben
         <br>Csak szeretet lakik máma.
-        <br>(Ady Endre: Karácsonyi rege - részlet)
         <br>(<a href="https://www.youtube.com/watch?v=BH5hINK2nPU" target="_blank">Szabó Gyula előadásában itt</a>)`,
     },
     {
@@ -215,11 +255,13 @@ const quotes = [
     },
     {
         day: 24,
-        quote: `Eljött hát a Szenteste, díszítik a fákat,
+        quote: `Eljött hát a Szenteste,
+        <br>díszítik a fákat,
         <br>békesség lengi be az egész házat.
-        <br>Hozzon a Jézuska sok-sok ajándékot,
+        <br>Hozzon a Jézuska
+        <br>sok-sok ajándékot,
         <br>járja át boldogság az egész családot!
-        <br>Békés boldog karácsonyt!`,
+        <br>Békés, boldog karácsonyt!`,
     },
 ]
 
@@ -300,23 +342,24 @@ boxContainer.onclick = (e) => {
 }
 */
 
-body.onload = () => {
+/*
+body.onclick = () => {
     playSound = !playSound;
     if (playSound) {
         xmasMusic.play();
         xmasMusic.loop = true;
     }
-}
+}*/
 
 speaker.onclick = () => {
     playSound = !playSound;
     if (playSound) {
         xmasMusic.play();
         xmasMusic.loop = true;
-        speaker.style.backgroundImage = "url('./img/sound-off.PNG')";
+        speaker.style.backgroundImage = "url('./img/sound-on.PNG')";
     } else {
         xmasMusic.pause();
-        speaker.style.backgroundImage = "url('./img/sound-on.PNG')";
+        speaker.style.backgroundImage = "url('./img/sound-off.PNG')";
     }
 }
 
@@ -330,6 +373,10 @@ box1.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            quit.style.color = '#dc3545';
+            popup.style.color = 'red';
+            popup.style.backgroundImage = "url('./img/snowfall.jpg')";
+            popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[0].quote;
         } else {
             box1.innerHTML = quotes[0].day;
@@ -342,6 +389,10 @@ box2.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            quit.style.color = '#dc3545';
+            popup.style.color = 'red';
+            popup.style.backgroundImage = "url('./img/snowfall.jpg')";
+            popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[1].quote;
         } else {
             box2.innerHTML = quotes[1].day;
@@ -354,6 +405,10 @@ box3.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            quit.style.color = '#dc3545';
+            popup.style.color = 'red';
+            popup.style.backgroundImage = "url('./img/fenyofak.jpg')";
+            popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[2].quote;
         } else {
             box3.innerHTML = quotes[2].day;
@@ -382,6 +437,10 @@ box5.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            quit.style.color = '#dc3545';
+            popup.style.color = 'red';
+            popup.style.backgroundImage = "url('./img/angel.jpg')";
+            popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[4].quote;
         } else {
             box5.innerHTML = quotes[4].day;
@@ -394,6 +453,10 @@ box6.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            quit.style.color = '#dc3545';
+            popup.style.color = 'red';
+            popup.style.backgroundImage = "url('./img/mikulas.jpg')";
+            popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[5].quote;
         } else {
             box6.innerHTML = quotes[5].day;
@@ -406,6 +469,10 @@ box7.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            quit.style.color = '#dc3545';
+            popup.style.color = 'red';
+            popup.style.backgroundImage = "url('./img/snowfall.jpg')";
+            popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[6].quote;
         } else {
             box7.innerHTML = quotes[6].day;
@@ -418,6 +485,10 @@ box8.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            quit.style.color = '#dc3545';
+            popup.style.color = 'red';
+            popup.style.backgroundImage = "url('./img/snowfall.jpg')";
+            popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[7].quote;
         } else {
             box8.innerHTML = quotes[7].day;
@@ -430,6 +501,10 @@ box9.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            quit.style.color = '#dc3545';
+            popup.style.color = 'red';
+            popup.style.backgroundImage = "url('./img/snowfall.jpg')";
+            popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[8].quote;
         } else {
             box9.innerHTML = quotes[8].day;
@@ -442,6 +517,10 @@ box10.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            quit.style.color = 'whitesmoke';
+            popup.style.color = 'whitesmoke';
+            popup.style.backgroundImage = "url('./img/christmas_lights.jpg')";
+            popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[9].quote;
         } else {
             box10.innerHTML = quotes[9].day;
@@ -454,6 +533,10 @@ box11.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            quit.style.color = '#dc3545';
+            popup.style.color = 'red';
+            popup.style.backgroundImage = "url('./img/christmas_tree_snow.jpg')";
+            popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[10].quote;
         } else {
             box11.innerHTML = quotes[10].day;
@@ -466,6 +549,10 @@ box12.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            quit.style.color = '#dc3545';
+            popup.style.color = 'red';
+            popup.style.backgroundImage = "url('./img/christmas_tree_snow.jpg')";
+            popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[11].quote;
         } else {
             box12.innerHTML = quotes[11].day;
@@ -478,6 +565,10 @@ box13.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            quit.style.color = 'whitesmoke';
+            popup.style.color = 'whitesmoke';
+            popup.style.backgroundImage = "url('./img/karacsony_csalad.jpg')";
+            popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[12].quote;
         } else {
             box13.innerHTML = quotes[12].day;
@@ -490,6 +581,10 @@ box14.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            quit.style.color = 'whitesmoke';
+            popup.style.color = 'whitesmoke';
+            popup.style.backgroundImage = "url('./img/kalacs.jpg')";
+            popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[13].quote;
         } else {
             box14.innerHTML = quotes[13].day;
@@ -502,6 +597,10 @@ box15.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            quit.style.color = '#dc3545';
+            popup.style.color = 'red';
+            popup.style.backgroundImage = "url('./img/mikulasszan.jpg')";
+            popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[14].quote;
         } else {
             box15.innerHTML = quotes[14].day;
@@ -514,6 +613,10 @@ box16.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            quit.style.color = 'whitesmoke';
+            popup.style.color = 'whitesmoke';
+            popup.style.backgroundImage = "url('./img/karacsony_csalad.jpg')";
+            popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[15].quote;
         } else {
             box16.innerHTML = quotes[15].day;
@@ -526,6 +629,10 @@ box17.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            quit.style.color = 'whitesmoke';
+            popup.style.color = 'whitesmoke';
+            popup.style.backgroundImage = "url('./img/karacsony_csalad.jpg')";
+            popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[16].quote;
         } else {
             box17.innerHTML = quotes[16].day;
@@ -538,6 +645,10 @@ box18.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            quit.style.color = 'whitesmoke';
+            popup.style.color = 'whitesmoke';
+            popup.style.backgroundImage = "url('./img/havas_templom.jpg')";
+            popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[17].quote;
         } else {
             box18.innerHTML = quotes[17].day;
@@ -550,6 +661,10 @@ box19.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            quit.style.color = '#dc3545';
+            popup.style.color = 'red';
+            popup.style.backgroundImage = "url('./img/snowfall.jpg')";
+            popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[18].quote;
         } else {
             box19.innerHTML = quotes[18].day;
@@ -562,6 +677,10 @@ box20.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            quit.style.color = 'whitesmoke';
+            popup.style.color = 'whitesmoke';
+            popup.style.backgroundImage = "url('./img/christmas_lights.jpg')";
+            popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[19].quote;
         } else {
             box20.innerHTML = quotes[19].day;
@@ -574,6 +693,10 @@ box21.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            quit.style.color = 'whitesmoke';
+            popup.style.color = 'whitesmoke';
+            popup.style.backgroundImage = "url('./img/havas_templom.jpg')";
+            popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[20].quote;
         } else {
             box21.innerHTML = quotes[20].day;
@@ -586,6 +709,10 @@ box22.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            quit.style.color = 'whitesmoke';
+            popup.style.color = 'whitesmoke';
+            popup.style.backgroundImage = "url('./img/csillag.jpg')";
+            popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[21].quote;
         } else {
             box22.innerHTML = quotes[21].day;
@@ -598,6 +725,10 @@ box23.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            quit.style.color = '#dc3545';
+            popup.style.color = 'red';
+            popup.style.backgroundImage = "url('./img/angel.jpg')";
+            popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[22].quote;
         } else {
             box23.innerHTML = quotes[22].day;
@@ -610,6 +741,10 @@ box24.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            quit.style.color = 'whitesmoke';
+            popup.style.color = 'whitesmoke';
+            popup.style.backgroundImage = "url('./img/karacsony_csalad.jpg')";
+            popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[23].quote;
         } else {
             box24.innerHTML = quotes[23].day;
