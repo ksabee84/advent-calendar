@@ -64,7 +64,7 @@ const quotes = [
         <br>Az angyalok ma táncra kelnek,
         <br>Gyertyafénynél énekelnek.
         <br>Mosolyogva mondják néked:
-        <br>Békés boldog ünnepeket!`,
+        <br>Békés, boldog ünnepeket!`,
     },
     {
         day: 8,
@@ -123,9 +123,9 @@ const quotes = [
     {
         day: 13,
         quote: `Karácsony ünnepére
-        <br>Az a kívánságom,
+        <br>az a kívánságom,
         <br>E háznak népére
-        <br>Béke, öröm várjon.`,
+        <br>béke, öröm várjon.`,
     },
     {
         day: 14,
@@ -217,8 +217,7 @@ const quotes = [
     },
     {
         day: 21,
-        quote: `Ady Endre: Karácsonyi rege
-        <br>(részlet)
+        quote: `Ady Endre: Karácsonyi rege (részlet)
         <br>Harang csendül,
         <br>Ének zendül,
         <br>Messze zsong a hálaének,
@@ -295,8 +294,9 @@ const box23 = document.getElementById('box23');
 const box24 = document.getElementById('box24');
 const xmasMusic = new Audio('./sound/christmasmusic.mp3');
 const popup = document.getElementById('popup');
+const dayNoBox = document.getElementById('dayNoBox');
+const quit = document.getElementById('quitBox');
 const boxtext = document.getElementById('boxtext');
-const quit = document.getElementById('quit');
 const now = new Date();
 const date1 = new Date('Dec 01 2022 18:00:00 GMT+0100');
 const date2 = new Date('Dec 02 2022 18:00:00 GMT+0100');
@@ -373,8 +373,10 @@ box1.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
-            quit.style.color = '#dc3545';
-            popup.style.color = 'red';
+            dayNoBox.innerHTML = quotes[0].day + '. nap';
+            quit.style.color = 'whitesmoke';
+            popup.style.color = 'whitesmoke';
+            popup.style.textShadow = '2px 2px #CC231E';
             popup.style.backgroundImage = "url('./img/snowfall.jpg')";
             popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[0].quote;
@@ -389,8 +391,9 @@ box2.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
-            quit.style.color = '#dc3545';
-            popup.style.color = 'red';
+            dayNoBox.innerHTML = quotes[1].day + '. nap';
+            quit.style.color = '#00008B';
+            popup.style.color = '#00008B';
             popup.style.backgroundImage = "url('./img/snowfall.jpg')";
             popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[1].quote;
@@ -405,8 +408,10 @@ box3.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
-            quit.style.color = '#dc3545';
-            popup.style.color = 'red';
+            dayNoBox.innerHTML = quotes[2].day + '. nap';
+            quit.style.color = '#cc231e';
+            popup.style.color = '#cc231e';
+            popup.style.textShadow = '2px 2px whitesmoke';
             popup.style.backgroundImage = "url('./img/fenyofak.jpg')";
             popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[2].quote;
@@ -421,8 +426,10 @@ box4.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
-            quit.style.color = '#dc3545';
-            popup.style.color = 'red';
+            dayNoBox.innerHTML = quotes[3].day + '. nap';
+            quit.style.color = '#cc231e';
+            popup.style.color = '#cc231e';
+            popup.style.textShadow = '2px 2px whitesmoke';
             popup.style.backgroundImage = "url('./img/winter_img_day4.jpg')";
             popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[3].quote;
@@ -437,8 +444,10 @@ box5.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
-            quit.style.color = '#dc3545';
-            popup.style.color = 'red';
+            dayNoBox.innerHTML = quotes[4].day + '. nap';
+            quit.style.color = '#cc231e';
+            popup.style.color = '#cc231e';
+            popup.style.textShadow = '2px 2px whitesmoke';
             popup.style.backgroundImage = "url('./img/angel.jpg')";
             popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[4].quote;
@@ -453,8 +462,10 @@ box6.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
-            quit.style.color = '#dc3545';
-            popup.style.color = 'red';
+            dayNoBox.innerHTML = quotes[5].day + '. nap';
+            quit.style.color = '#00008b';
+            popup.style.color = '#00008b';
+            popup.style.textShadow = '2px 2px whitesmoke';
             popup.style.backgroundImage = "url('./img/mikulas.jpg')";
             popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[5].quote;
@@ -469,8 +480,10 @@ box7.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
-            quit.style.color = '#dc3545';
-            popup.style.color = 'red';
+            dayNoBox.innerHTML = quotes[6].day + '. nap';
+            quit.style.color = 'whitesmoke';
+            popup.style.color = 'whitesmoke';
+            popup.style.textShadow = '2px 2px #006400';
             popup.style.backgroundImage = "url('./img/snowfall.jpg')";
             popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[6].quote;
@@ -485,8 +498,10 @@ box8.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
-            quit.style.color = '#dc3545';
-            popup.style.color = 'red';
+            dayNoBox.innerHTML = quotes[7].day + '. nap';
+            quit.style.color = 'whitesmoke';
+            popup.style.color = 'whitesmoke';
+            popup.style.textShadow = '2px 2px #006400';
             popup.style.backgroundImage = "url('./img/snowfall.jpg')";
             popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[7].quote;
@@ -501,8 +516,10 @@ box9.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
-            quit.style.color = '#dc3545';
-            popup.style.color = 'red';
+            dayNoBox.innerHTML = quotes[8].day + '. nap';
+            quit.style.color = '#whitesmoke';
+            popup.style.color = 'whitesmoke';
+            popup.style.textShadow = '2px 2px #006400';
             popup.style.backgroundImage = "url('./img/snowfall.jpg')";
             popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[8].quote;
@@ -517,8 +534,10 @@ box10.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            dayNoBox.innerHTML = quotes[9].day + '. nap';
             quit.style.color = 'whitesmoke';
             popup.style.color = 'whitesmoke';
+            popup.style.textShadow = '2px 2px #006400';
             popup.style.backgroundImage = "url('./img/christmas_lights.jpg')";
             popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[9].quote;
@@ -533,8 +552,10 @@ box11.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            dayNoBox.innerHTML = quotes[10].day + '. nap';
             quit.style.color = '#dc3545';
-            popup.style.color = 'red';
+            popup.style.color = '#dc3545';
+            popup.style.textShadow = '2px 2px whitesmoke';
             popup.style.backgroundImage = "url('./img/christmas_tree_snow.jpg')";
             popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[10].quote;
@@ -549,8 +570,10 @@ box12.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            dayNoBox.innerHTML = quotes[11].day + '. nap';
             quit.style.color = '#dc3545';
-            popup.style.color = 'red';
+            popup.style.color = '#dc3545';
+            popup.style.textShadow = '2px 2px whitesmoke';
             popup.style.backgroundImage = "url('./img/christmas_tree_snow.jpg')";
             popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[11].quote;
@@ -565,8 +588,10 @@ box13.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            dayNoBox.innerHTML = quotes[12].day + '. nap';
             quit.style.color = 'whitesmoke';
             popup.style.color = 'whitesmoke';
+            popup.style.textShadow = '2px 2px #006400';
             popup.style.backgroundImage = "url('./img/karacsony_csalad.jpg')";
             popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[12].quote;
@@ -581,8 +606,10 @@ box14.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            dayNoBox.innerHTML = quotes[13].day + '. nap';
             quit.style.color = 'whitesmoke';
             popup.style.color = 'whitesmoke';
+            popup.style.textShadow = '2px 2px #006400';
             popup.style.backgroundImage = "url('./img/kalacs.jpg')";
             popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[13].quote;
@@ -597,8 +624,10 @@ box15.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
-            quit.style.color = '#dc3545';
-            popup.style.color = 'red';
+            dayNoBox.innerHTML = quotes[14].day + '. nap';
+            quit.style.color = 'whitesmoke';
+            popup.style.color = 'whitesmoke';
+            popup.style.textShadow = '2px 2px #006400';
             popup.style.backgroundImage = "url('./img/mikulasszan.jpg')";
             popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[14].quote;
@@ -613,8 +642,10 @@ box16.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            dayNoBox.innerHTML = quotes[15].day + '. nap';
             quit.style.color = 'whitesmoke';
             popup.style.color = 'whitesmoke';
+            popup.style.textShadow = '2px 2px #006400';
             popup.style.backgroundImage = "url('./img/karacsony_csalad.jpg')";
             popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[15].quote;
@@ -629,8 +660,10 @@ box17.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            dayNoBox.innerHTML = quotes[16].day + '. nap';
             quit.style.color = 'whitesmoke';
             popup.style.color = 'whitesmoke';
+            popup.style.textShadow = '2px 2px #dc3545';
             popup.style.backgroundImage = "url('./img/karacsony_csalad.jpg')";
             popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[16].quote;
@@ -645,8 +678,10 @@ box18.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            dayNoBox.innerHTML = quotes[17].day + '. nap';
             quit.style.color = 'whitesmoke';
             popup.style.color = 'whitesmoke';
+            popup.style.textShadow = '2px 2px #006400';
             popup.style.backgroundImage = "url('./img/havas_templom.jpg')";
             popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[17].quote;
@@ -661,8 +696,10 @@ box19.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
-            quit.style.color = '#dc3545';
-            popup.style.color = 'red';
+            dayNoBox.innerHTML = quotes[18].day + '. nap';
+            quit.style.color = 'whitesmoke';
+            popup.style.color = 'whitesmoke';
+            popup.style.textShadow = '2px 2px #006400';
             popup.style.backgroundImage = "url('./img/snowfall.jpg')";
             popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[18].quote;
@@ -677,8 +714,10 @@ box20.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
-            quit.style.color = 'whitesmoke';
-            popup.style.color = 'whitesmoke';
+            dayNoBox.innerHTML = quotes[19].day + '. nap';
+            quit.style.color = '#006400';
+            popup.style.color = '#006400';
+            popup.style.textShadow = '1px 1px whitesmoke';
             popup.style.backgroundImage = "url('./img/christmas_lights.jpg')";
             popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[19].quote;
@@ -693,8 +732,10 @@ box21.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            dayNoBox.innerHTML = quotes[20].day + '. nap';
             quit.style.color = 'whitesmoke';
             popup.style.color = 'whitesmoke';
+            popup.style.textShadow = '3px 3px #006400';
             popup.style.backgroundImage = "url('./img/havas_templom.jpg')";
             popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[20].quote;
@@ -709,8 +750,10 @@ box22.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            dayNoBox.innerHTML = quotes[21].day + '. nap';
             quit.style.color = 'whitesmoke';
             popup.style.color = 'whitesmoke';
+            popup.style.textShadow = '2px 2px #006400';
             popup.style.backgroundImage = "url('./img/csillag.jpg')";
             popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[21].quote;
@@ -725,8 +768,10 @@ box23.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            dayNoBox.innerHTML = quotes[22].day + '. nap';
             quit.style.color = '#dc3545';
-            popup.style.color = 'red';
+            popup.style.color = '#dc3545';
+            popup.style.textShadow = '1px 1px whitesmoke';
             popup.style.backgroundImage = "url('./img/angel.jpg')";
             popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[22].quote;
@@ -741,8 +786,10 @@ box24.onclick = () => {
         message = !message;
         if(message) {
             popup.style.display = 'block';
+            dayNoBox.innerHTML = quotes[23].day + '. nap';
             quit.style.color = 'whitesmoke';
             popup.style.color = 'whitesmoke';
+            popup.style.textShadow = '2px 2px #006400';
             popup.style.backgroundImage = "url('./img/karacsony_csalad.jpg')";
             popup.style.backgroundSize = 'cover';
             boxtext.innerHTML = quotes[23].quote;
